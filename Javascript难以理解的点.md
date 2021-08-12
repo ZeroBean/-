@@ -51,7 +51,7 @@
    类中的构造函数和构造实例的溯源顺序
 
    ```javascript
-   class Test(){
+   class Test {
        test(){
            console.log(this)
        }
@@ -62,7 +62,7 @@
    ```
 
    ```javascript
-   class Test(){
+   class Test{
        //非静态方法->new->this
        //再构造函数中的this的属性，会绑定到他的实例对象
        constructor(){
